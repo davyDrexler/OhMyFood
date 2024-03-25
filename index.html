@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OhMyFood</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="loader-wrapper">
+            <img src="images/logo/ohmyfood@2x.svg" alt="logo de Oh My food">
+            <div class="loader"></div>
+            <h3>Une petite faim ?</h3>
+        </div>
+
+        <header>
+            <img src="images/logo/ohmyfood.png" alt="logo de Oh My food">
+            <div class="localisation">
+                <h2><i class="fa-solid fa-location-dot"></i>Paris, Belleville</h2>
+            </div>
+        </header>
+
+        <div class="top-text">
+            <div class="big-text">
+                <h1>Réservez le menu qui vous convient</h1>
+            </div>
+            <div class="small-text">
+                <h4>Découvrez des restaurants d'exception, séléctionnés par nos soins.</h4>
+            </div>
+
+            <div class="button">
+                <h3>Explorer nos restaurants</h3>
+            </div>
+        </div>
+
+        <div class="fonctionnement">
+            <h2>Fonctionnement</h2>
+
+            <div class="all-step">
+                <div class="step">
+                    <img src="images/number/numb1.svg" alt="Numéro 1">
+                    <div class="text">
+                        <img src="images/fonctionnement/mobile.svg" alt="icon de téléphone">
+                        <h3>Choisissez un restaurants</h3>
+                    </div>
+                </div>
+                <div class="step">
+                    <img src="images/number/numb2.svg" alt="Numéro 2">
+                    <div class="text">
+                        <img src="images/fonctionnement/list.svg" alt="icon de liste">
+                        <h3>Composez votre menu</h3>
+                    </div>
+                </div>
+                <div class="step">
+                    <img src="images/number/numb3.svg" alt="Numéro 3">
+                    <div class="text">
+                        <img src="images/fonctionnement/store.svg" alt="Icon de magasin">
+                        <h3>Dégustez un restaurants</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="restaurants">
+            <div class="container">
+                <div class="title-text">
+                    <h2>Restaurants</h2>
+                </div>
+
+                <div class="all-cards">
+
+                    <div class="first-stack">
+                        <article class="card">
+                            <div class="card-img" onclick="window.location.href='palette-du-gout.html'">
+                                <div class="new">
+                                    <h3>Nouveau</h3>
+                                </div>
+                                <img src="/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Image de La palette du gout">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-txt" onclick="window.location.href='palette-du-gout.html'">
+                                    <h3 class="card-title">La palette du goût</h3>
+                                    <h3 class="card-subtitle">Ménilmontant</h3>
+                                </div>
+                                <div class="like">
+                                    <input type="radio" id="icon1-1" name="icons1" class="icon-radio" checked>
+                                    <label for="icon1-1" class="icon"><i class="fa-solid fa-heart"></i></label>
+    
+                                    <input type="radio" id="icon1-2" name="icons1" class="icon-radio">
+                                    <label for="icon1-2" class="icon"><i class="fa-regular fa-heart"></i></label>
+                                </div>
+                            </div>
+                        </article>
+    
+                        <article class="card">
+                            <div class="card-img" onclick="window.location.href='la-note-enchantee.html'">
+                                <div class="new">
+                                    <h3>Nouveau</h3>
+                                </div>
+                                <img src="/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Image de La note enchantée">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-txt" onclick="window.location.href='la-note-enchantee.html'">
+                                    <h3 class="card-title">La note enchantée</h3>
+                                    <h3 class="card-subtitle">Charonne</h3>
+                                </div>
+                                <div class="like">
+                                    <input type="radio" id="icon2-1" name="icons2" class="icon-radio" checked>
+                                    <label for="icon2-1" class="icon"><i class="fa-solid fa-heart"></i></label>
+    
+                                    <input type="radio" id="icon2-2" name="icons2" class="icon-radio">
+                                    <label for="icon2-2" class="icon"><i class="fa-regular fa-heart"></i></label>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="second-stack">
+                        <article class="card">
+                            <div class="card-img" onclick="window.location.href='a-la-francaise.html'">
+                                <img src="/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Image de à la française">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-txt" onclick="window.location.href='a-la-francaise.html'">
+                                    <h3 class="card-title">À la française</h3>
+                                    <h3 class="card-subtitle">Cité Rouge</h3>
+                                </div>
+                                <div class="like">
+                                    <input type="radio" id="icon3-1" name="icons3" class="icon-radio" checked>
+                                    <label for="icon3-1" class="icon"><i class="fa-solid fa-heart"></i></label>
+    
+                                    <input type="radio" id="icon3-2" name="icons3" class="icon-radio">
+                                    <label for="icon3-2" class="icon"><i class="fa-regular fa-heart"></i></label>
+                                </div>
+                            </div>
+                        </article>
+    
+                        <article class="card">
+                            <div class="card-img" onclick="window.location.href='delice-des-sens.html'">
+                                <img src="/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Image de Le délice des sens">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-txt" onclick="window.location.href='delice-des-sens.html'">
+                                    <h3 class="card-title">Le délice des sens</h3>
+                                    <h3 class="card-subtitle">Folie-Méricourt</h3>
+                                </div>
+                                <div class="like">
+                                    <input type="radio"  name="icons4" id="icon4-1" class="icon-radio" checked>
+                                    <label for="icon4-1" class="icon"><i class="fa-solid fa-heart"></i></label>
+    
+                                    <input type="radio" id="icon4-2" name="icons4" class="icon-radio">
+                                    <label for="icon4-2" class="icon"><i class="fa-regular fa-heart"></i></label>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+            </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <img src="/images/logo/ohmyfood-white.svg" alt="logo de Oh My food">
+                <div class="info">
+                    <div class="proposition">
+                        <a><img src="images/footer/couvert.svg" alt="icon de couvert">Proposer un restaurant</a>
+                        <a><img src="images/footer/partenaire.svg" alt="icon répresentent un serrage de main">Devenir partenaire</a>
+                        <div class="legal">
+                            <a>Mention légales</a>
+                            <a href="mailto:ohmyfood@contact.com">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
