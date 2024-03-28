@@ -4,13 +4,10 @@ $primary: #9356DC;
 $secondary: #FF79DA;
 $degrade: linear-gradient(#FF79DA, #9356DC);
 
-@font-face {
-    font-family: 'roboto';
-    src: url();
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
-    font-family: 'roboto';
+    font-family: 'Roboto';
 }
 
 body{
@@ -215,6 +212,7 @@ header {
 
                 h3{ 
                     font-size: 16px;
+                    font-weight: 500;
                     width: 100%;
                     color: black;
 
@@ -336,7 +334,8 @@ header {
                         .card-subtitle {
                             width: 80%;
                             cursor: pointer;
-                            font-weight: 100;
+                            font-weight: 300;
+                            color: #000000;
                         }
         
                     }
@@ -351,16 +350,16 @@ header {
                         }
                 
                         .icon {
-                          width: 100%;
-                          color: black;
-                          justify-content: flex-end;
-                          .fa-heart {
-                            font-size: 22px;
-                          }
+                            width: 100%;
+                            color: black;
+                            justify-content: flex-end;
+                            .fa-heart {
+                                font-size: 22px;
+                            }
                 
-                          .fa-solid {
-                            color: $primary;
-                          }
+                            .fa-solid {
+                                color: $primary;
+                            }
                         }
                 
                         #icon1-1:checked + label[for="icon1-1"],
@@ -734,7 +733,6 @@ main{
                     .animation_3 {
                         animation: progressive 1300ms ease-in-out;
                     }
-
                     .animation_4 {
                         animation: progressive 1500ms ease-in-out;
                     }

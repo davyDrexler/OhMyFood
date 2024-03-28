@@ -1,10 +1,7 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "roboto";
-  src: url();
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
-  font-family: "roboto";
+  font-family: "Roboto";
 }
 
 body {
@@ -202,6 +199,7 @@ header .localisation h2 .fa-location-dot {
 }
 .fonctionnement .all-step .step .text h3 {
   font-size: 16px;
+  font-weight: 500;
   width: 100%;
   color: black;
 }
@@ -311,7 +309,8 @@ header .localisation h2 .fa-location-dot {
 .restaurants .container .all-cards .card .card-content .card-txt .card-subtitle {
   width: 80%;
   cursor: pointer;
-  font-weight: 100;
+  font-weight: 300;
+  color: #000000;
 }
 .restaurants .container .all-cards .card .card-content .like {
   width: 20%;
